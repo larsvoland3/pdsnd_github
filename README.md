@@ -7,7 +7,7 @@
 bikeshare project
 
 ### Description
-Educational project to learn to analyse a example datbase with help of python
+Educational project to learn to analyse an example database with help of python
 
 ### Files used
 bikeshare.py
