@@ -25,14 +25,14 @@ def get_filters():
     while city not in cities:
         city = input("Please choose a city you want to explore (Chicago, New York City or Washington)?:").lower()
         if city not in cities:
-            print("City name you entered ({}) not founchicagod in the database.".format(city))
+            print("City name you entered ({}) not found in the database.".format(city))
             
     # TO DO: get user input for month (all, january, february, ... , june)
     month = ""
     while month not in months:
         month = input("Please choose the month you want to check (all, january, febuary, march, april, may, june)?:").lower()
         if month not in months:
-            print("Month you entered ({})not found in the database.".format(month)) 
+            print("Month you entered ({}) not found in the database.".format(month)) 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = ""
