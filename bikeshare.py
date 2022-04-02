@@ -6,7 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 cities = ("chicago", "new york city", "washington")
-months = ("all", "january", "febuary", "march", "april", "may", "june")
+months = ("all", "january", "february", "march", "april", "may", "june")
 daysofweek = ("all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday")
 
 
@@ -30,7 +30,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     month = ""
     while month not in months:
-        month = input("Please choose the month you want to check (all, january, febuary, march, april, may, june)?:").lower()
+        month = input("Please choose the month you want to check (all, january, february, march, april, may, june)?:").lower()
         if month not in months:
             print("Month you entered ({})not found in the database.".format(month)) 
 
